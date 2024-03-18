@@ -19,6 +19,20 @@ npm i -g @nest/cli
 docker-compose up -d
 ```
 
+5. Clone the file __.env.template__ and rename the copy to __.env__
+
+6. fill the environment variables defined in the ```.env``` 
+7. Execute the app in dev:
+
+``` 
+npm run start:dev
+```
+
+8. Rebuild database with the seed
+
+```
+localhost:3000/api/v2/seed
+```
 
 ## Stack used
 * Mongodb
